@@ -23,6 +23,7 @@ def modulo(a, b):
 
 
 def square(a):
+    """Return the square of x."""
     return a * a
 
 
