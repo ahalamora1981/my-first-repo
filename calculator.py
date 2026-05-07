@@ -22,10 +22,15 @@ def modulo(a, b):
     return a % b
 
 
-def squar(a):
+def square(a):
     """Return the square of x."""
     return a * a
 
+
+# Cube function
+def cube(a):
+    """Return the cube of x."""
+    return a * a * a
 
 if __name__ == "__main__":
     print("3 + 5 =", add(3, 5))
@@ -34,4 +39,5 @@ if __name__ == "__main__":
     print("10 // 4 =", divide_integer(10, 4))
     print("10 / 4 =", divide(10, 4))
     print("10 % 3 =", modulo(10, 3))
-    print("3^2 =", squar(3))
+    print("3^2 =", square(3))
+    print("3^3 =", cube(3))
