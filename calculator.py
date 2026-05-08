@@ -11,6 +11,8 @@ def multiply(a, b):
 
 
 def divide_integer(a, b):
+    if b == 0:
+        return None
     return a // b
 
 
